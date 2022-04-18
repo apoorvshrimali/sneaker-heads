@@ -27,6 +27,12 @@ export const Signup = () => {
       });
     } catch (e) {
       console.log(e.message);
+      setForm({
+        firstName: "",
+        lastName: "",
+        password: "",
+        email: "",
+      });
     }
   }
 
