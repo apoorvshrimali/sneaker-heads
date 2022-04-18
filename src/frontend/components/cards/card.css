@@ -1,0 +1,74 @@
+.card {
+  width: 300px;
+  height: auto;
+  border: 1px solid #49505720;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.card-hero {
+  width: 100%;
+}
+.card-heading {
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--charcoal-black);
+}
+.card-sub-heading {
+  margin: 0;
+  padding: 0 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--charcoal-black);
+}
+.card .pricing {
+  padding: 0 1rem;
+  display: flex;
+  column-gap: 0.75rem;
+  align-items: center;
+}
+.card-discounted-price {
+  font-size: 1.25rem;
+}
+.card-strikethrough-price {
+  text-decoration: line-through;
+  color: var(--sub-heading);
+}
+.card-discount {
+  color: var(--success-color);
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  margin-top: auto;
+}
+.card-btn-secondary svg path {
+  transition: 0.2s ease-in-out;
+}
+.card-btn-secondary:hover svg path {
+  fill: white;
+}
+.actions {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.remove-wishlist {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

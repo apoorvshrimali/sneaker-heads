@@ -1,0 +1,17 @@
+.cart {
+  display: flex;
+  column-gap: 24px;
+  margin: 2rem;
+}
+.cart-products {
+  display: flex;
+  column-gap: 1.75rem;
+}
+.cart-total {
+  padding: 2rem;
+  height: max-content;
+  border: 1px solid #49505720;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}

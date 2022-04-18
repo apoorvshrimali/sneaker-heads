@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color:var(--primary-color);
+    margin-bottom: 0;
+
+}
+.main h3{
+    font-weight: 400;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: var(--sub-heading);
+    line-height: 2.75rem;
+    width: 70%;
+}
+
+.img{
+    height: 30%;
+    width: 30%;
+    transition: 0.5s ease-in-out;
+    animation: float 5s infinite linear;
+}
+
+@keyframes float {
+    0%{
+        
+        transform: translateY(0) rotate3D(-10deg);
+    }
+    50%{
+        transform: translateY(10%) rotate(-10deg);
+    }
+    100%{
+        transform: translateY(0) rotate3D(-10deg);
+    }
+}

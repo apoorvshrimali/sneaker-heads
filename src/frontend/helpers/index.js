@@ -1,0 +1,1 @@
+export { getLocalStorage, removeLocalStorage, setLocalStorage } from './localstorage'
